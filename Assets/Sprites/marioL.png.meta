@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b124363db2ae724bb6b0960aeb5caf5
+guid: f65cd0944d32fba4fb587b8dc2495f0b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mario_high_0
+      name: marioL_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 300
-        width: 176
-        height: 300
+        x: 10
+        y: 305
+        width: 290
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,41 +121,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab6b3ff0c3ce8f54b9fb3605c7abf2d4
-      internalID: 1350563957
+      spriteID: 7f5d9a1ce08df6545aa17a7537415f35
+      internalID: -57993113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_high_1
+      name: marioL_1
       rect:
         serializedVersion: 2
-        x: 180
-        y: 300
-        width: 176
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 307
+        y: 305
+        width: 290
+        height: 290
+      alignment: 9
+      pivot: {x: 0.48965517, y: 0.47241378}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c5eb087e9a5d314bbaa0748ad859905
-      internalID: -259029818
+      spriteID: 96b7f94c6f655b04facfe047cd3701c9
+      internalID: 2128163604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_high_2
+      name: marioL_2
       rect:
         serializedVersion: 2
-        x: 358
-        y: 300
-        width: 176
-        height: 300
+        x: 2
+        y: 7
+        width: 290
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5d6b70b6a1f6a24fb4affe59515c3b1
-      internalID: -1995028635
+      spriteID: 25f13107138dab84f8c0adaf98559b99
+      internalID: 240837273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_high_3
+      name: marioL_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 175
-        height: 300
+        x: 309
+        y: 8
+        width: 290
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8693c0a27747a354583c7f046aacd63e
-      internalID: 1814221080
+      spriteID: e909b12924ea31e44a387fbcc7270d25
+      internalID: -105835540
       vertices: []
       indices: 
       edges: []
@@ -201,10 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mario_high_0: 1350563957
-      mario_high_1: -259029818
-      mario_high_2: -1995028635
-      mario_high_3: 1814221080
+      marioL_0: -57993113
+      marioL_1: 2128163604
+      marioL_2: 240837273
+      marioL_3: -105835540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

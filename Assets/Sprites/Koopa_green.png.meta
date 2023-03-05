@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 180dcc4e2b4e9394ca4860377cd4c74e
+guid: dfd521e1d1893e943a46a89dfe8f3d3b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -111,18 +111,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 280
-        width: 210
-        height: 320
+        y: 300
+        width: 290
+        height: 290
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fc662f86bb8ab8478ee1442c62871ee
-      internalID: 2014181285
+      spriteID: 1740700709996754eae14913d9a4b573
+      internalID: 156716198
       vertices: []
       indices: 
       edges: []
@@ -131,19 +131,19 @@ TextureImporter:
       name: Koopa_green_1
       rect:
         serializedVersion: 2
-        x: 211
-        y: 280
-        width: 209
-        height: 320
+        x: 299
+        y: 300
+        width: 290
+        height: 290
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ee7dc4dc87ff7d43a913fd6200a079f
-      internalID: 704776041
+      spriteID: d5d1d70733dab7f489f4d72c7fc18364
+      internalID: -1456736091
       vertices: []
       indices: 
       edges: []
@@ -152,19 +152,19 @@ TextureImporter:
       name: Koopa_green_2
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5
         y: 0
-        width: 211
-        height: 600
+        width: 290
+        height: 290
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2328b3612c35fa54ca7b6779cd2587b2
-      internalID: -898397976
+      spriteID: 3e358301869d26f42a2e2034029f8cd9
+      internalID: -1380683475
       vertices: []
       indices: 
       edges: []
@@ -180,9 +180,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Koopa_green_0: 2014181285
-      Koopa_green_1: 704776041
-      Koopa_green_2: -898397976
+      Koopa_green_0: 156716198
+      Koopa_green_1: -1456736091
+      Koopa_green_2: -1380683475
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

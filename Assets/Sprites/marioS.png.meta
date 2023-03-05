@@ -110,10 +110,10 @@ TextureImporter:
       name: marioS_1
       rect:
         serializedVersion: 2
-        x: 276
-        y: 481
-        width: 223
-        height: 198
+        x: 281
+        y: 478
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,10 +131,10 @@ TextureImporter:
       name: marioS_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 503
-        width: 223
-        height: 203
+        x: 17
+        y: 500
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 2, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: marioS_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 257
-        width: 222
-        height: 198
+        x: 21
+        y: 255
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: marioS_3
       rect:
         serializedVersion: 2
-        x: 277
+        x: 280
         y: 256
-        width: 222
-        height: 202
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: marioS_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 32
-        width: 223
-        height: 201
+        x: 20
+        y: 35
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c0b937f9bec65d4c928c1e16ddd4970
+guid: 77b2a95e97620c94686a6eaed5b28f88
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mario_power_0
+      name: mario_power 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 300
-        width: 176
-        height: 300
+        x: 9
+        y: 303
+        width: 290
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4575b7c127618f418762abf0866120d
-      internalID: -1952287211
+      spriteID: 586af26ee1ff4464fbd8c086f20653b4
+      internalID: 705796307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_power_1
+      name: mario_power 1_1
       rect:
         serializedVersion: 2
-        x: 178
-        y: 299
-        width: 176
-        height: 300
+        x: 305
+        y: 304
+        width: 290
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,41 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95e2ed6dc003b374b8f3fa9d4af2b388
-      internalID: -555363646
+      spriteID: 38d1ad7b18e43b14880f357d4810e795
+      internalID: 2061777450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_power_2
+      name: mario_power 1_2
       rect:
         serializedVersion: 2
-        x: 354
-        y: 300
-        width: 176
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5f9d14bb6ee2a74d82de76c6f68f245
-      internalID: -861509853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mario_power_3
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 7
         y: 0
-        width: 176
-        height: 300
+        width: 290
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +163,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b44c9d076a67c042bf863a01fa29bf0
-      internalID: 309318202
+      spriteID: 021e1c136019f66429912f9605c8334e
+      internalID: -40717412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_power 1_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76624a4eb66eba2428b61b3506173b65
+      internalID: -830546806
       vertices: []
       indices: 
       edges: []
@@ -201,10 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mario_power_0: -1952287211
-      mario_power_1: -555363646
-      mario_power_2: -861509853
-      mario_power_3: 309318202
+      mario_power 1_0: 705796307
+      mario_power 1_1: 2061777450
+      mario_power 1_2: -40717412
+      mario_power 1_3: -830546806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
