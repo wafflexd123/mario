@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4372912192277823339}
   - component: {fileID: 4372912192277823338}
-  - component: {fileID: 4372912192277823337}
   - component: {fileID: 4372912192277823336}
   - component: {fileID: 4372912192277822612}
+  - component: {fileID: -79200282092252235}
   m_Layer: 0
-  m_Name: Mario
-  m_TagString: Player
+  m_Name: Fire Flower
+  m_TagString: Powerups
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.4719391, a: 1}
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 1, g: 0, b: 0.069015026, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -87,19 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4372912192277823337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4372912192277823343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4be51fe6d44359648bfb71b33456c3a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentState: 0
 --- !u!50 &4372912192277823336
 Rigidbody2D:
   serializedVersion: 4
@@ -126,7 +113,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &4372912192277822612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -172,3 +159,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-79200282092252235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372912192277823343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421985f3b5aa11041960d616edbb5ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
+  moveSpeed: 3
+  maxHeight: 5
+  bounceSpeed: 5

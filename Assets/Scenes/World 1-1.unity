@@ -1961,6 +1961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 cube (441)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 0a36fc1cafa399b428e67a9d7e919823, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6285,6 +6289,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 541385295276147536, guid: 0a36fc1cafa399b428e67a9d7e919823, type: 3}
   m_PrefabInstance: {fileID: 294149155}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &299230999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5758915
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4445665
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823343, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
+      propertyPath: m_Name
+      value: Super Mushroom
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab1bdbad71ebdbd43bf6603b405b6e06, type: 3}
 --- !u!1001 &301363963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10095,7 +10160,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4372912192277823339, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4372912192277823339, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10140,6 +10205,10 @@ PrefabInstance:
     - target: {fileID: 4372912192277823343, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
       propertyPath: m_Name
       value: Mario
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823343, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17168,6 +17237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 cube (440)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 0a36fc1cafa399b428e67a9d7e919823, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19821,7 +19894,7 @@ Transform:
   - {fileID: 1994467272}
   - {fileID: 1266261349}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &953623326
 PrefabInstance:
@@ -22599,6 +22672,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 0a36fc1cafa399b428e67a9d7e919823, type: 3}
       propertyPath: m_Name
       value: 1x1 cube (443)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 0a36fc1cafa399b428e67a9d7e919823, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29976,7 +30053,7 @@ Transform:
   - {fileID: 1297218551}
   - {fileID: 52242140}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1414317500
 PrefabInstance:
@@ -33383,7 +33460,7 @@ Transform:
   - {fileID: 1805534133}
   - {fileID: 320009420}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1540693620
 PrefabInstance:
@@ -34616,7 +34693,7 @@ Transform:
   - {fileID: 675672810}
   - {fileID: 1102418376}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1582720091
 PrefabInstance:
@@ -40440,7 +40517,7 @@ Transform:
   - {fileID: 1261604738}
   - {fileID: 1382835690}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1804757415
 PrefabInstance:
@@ -42159,6 +42236,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 0a36fc1cafa399b428e67a9d7e919823, type: 3}
       propertyPath: m_Name
       value: 1x1 cube (434)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 0a36fc1cafa399b428e67a9d7e919823, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -44558,7 +44639,7 @@ Transform:
   - {fileID: 704340107}
   - {fileID: 1080427775}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1969912724
 PrefabInstance:
