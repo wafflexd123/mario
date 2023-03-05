@@ -4,6 +4,20 @@ using UnityEngine;
 
 public class Mario : MonoBehaviour
 {
+    public enum MarioState
+    {
+        Small,
+        Super,
+        Fiery,
+        Star
+    }
+
+    public int health = 1;
+    public int lives = 3;
+
+    public MarioState currentState = MarioState.Small;
+    private MarioState previousState;
+
     float speed = 0f;
     float maxSpeed;
     float maxWalkSpeed = 0.025f;
@@ -14,9 +28,13 @@ public class Mario : MonoBehaviour
     float jumpSpeedMin = 4f;
     float jumpSpeedMax = 9.5f;
 
+    private float starTimer = 0f;
+    private const float starDuration = 30f;
+
     bool isJumping = false;
     bool jumpCancel = false;
     bool isGrounded = false;
+    bool isInvincible = false;
 
     bool isSprinting = false;
 
@@ -104,6 +122,17 @@ public class Mario : MonoBehaviour
         }
 
         transform.position = new Vector2(transform.position.x + speed, transform.position.y);
+
+        // Code to determine how long star effects last.
+        if (starTimer > 0f)
+        {
+            starTimer -= Time.deltaTime;
+            if (starTimer <= 0f)
+            {
+                isInvincible = false;
+                currentState = previousState;
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -132,5 +161,33 @@ public class Mario : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
+    }
+
+    // Power up handling
+    // Activates when Mario picks up a Super Mushroom.
+    public void Grow()
+    {
+        currentState = MarioState.Super;
+        // Temporary grow code, makes Mario size bigger, will change sprite later.
+        transform.localScale = new Vector3(1, 2, 1);
+        health = 2;
+    }
+    // Activates when Mario picks up a 1-Up Mushroom.
+    public void GainLife()
+    {
+        lives += 1;
+    }
+    // Activates when Mario picks up a Fire Flower.
+    public void ShootFireballs()
+    {
+        currentState = MarioState.Fiery;
+    }
+    // Activates when Mario picks up a Super Star.
+    public void BecomeInvincible()
+    {
+        previousState = currentState;
+        currentState = MarioState.Star;
+        starTimer = starDuration;
+        isInvincible = true;
     }
 }
