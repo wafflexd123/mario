@@ -86,7 +86,7 @@ public class Powerup : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Collided with Mario");
+            // Debug.Log("Collided with Mario");
             Mario mario = collision.gameObject.GetComponent<Mario>();
             Activate(mario);
         }
