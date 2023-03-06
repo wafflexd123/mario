@@ -15,7 +15,7 @@ public class Mario : MonoBehaviour
 	[SerializeField] float maxWalkSpeed = 25f, sprintSpeed = 0.01f, horizontalAcc = 1f;
 	float speed = 0f, maxSpeed, maxSprintSpeed, jumpSpeedMin = 4f, jumpSpeedMax = 9.5f, starTimer = 0f;
 	private const float starDuration = 30f;
-	bool isJumping = false, jumpCancel = false, isGrounded = true, isInvincible = false, isSprinting = false;
+	bool isJumping = false, jumpCancel = false, isGrounded = true, isInvincible = false, isSprinting = false, canMove = true;
 
 	Coroutine crtStar;
 	Rigidbody2D body;
@@ -29,49 +29,54 @@ public class Mario : MonoBehaviour
 
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.LeftShift))
+		if (canMove)
 		{
-			speed += sprintSpeed * Mathf.Sign(speed);
-			maxSpeed = maxSprintSpeed;
-			isSprinting = true;
-		}
+			if (Input.GetKeyDown(KeyCode.LeftShift))
+			{
+				speed += sprintSpeed * Mathf.Sign(speed);
+				maxSpeed = maxSprintSpeed;
+				isSprinting = true;
+			}
 
-		if (Input.GetKeyUp(KeyCode.LeftShift))
-		{
-			maxSpeed = maxWalkSpeed;
-			if (speed > maxSpeed) speed = maxSpeed;
-		}
+			if (Input.GetKeyUp(KeyCode.LeftShift))
+			{
+				maxSpeed = maxWalkSpeed;
+				if (speed > maxSpeed) speed = maxSpeed;
+			}
 
-		if (Input.GetButtonDown("Jump") && Mathf.Abs(body.velocity.y) < 0.01f /*&& isGrounded*/)//isGrounded wasn't reliably working, have to fix
-		{
-			isJumping = true;
-		}
+			if (Input.GetButtonDown("Jump") && Mathf.Abs(body.velocity.y) < 0.01f /*&& isGrounded*/)//isGrounded wasn't reliably working, have to fix
+			{
+				isJumping = true;
+			}
 
-		if (Input.GetButtonUp("Jump") && !isGrounded)
-		{
-			jumpCancel = true;
+			if (Input.GetButtonUp("Jump") && !isGrounded)
+			{
+				jumpCancel = true;
+			}
 		}
 	}
 
 	void Movement()
 	{
-		float direction = Input.GetAxisRaw("Horizontal");
-		if (direction != 0)
+		if (canMove)
 		{
-			if (speed * direction < maxSpeed)
+			float direction = Input.GetAxisRaw("Horizontal");
+			if (direction != 0)
 			{
-				speed += horizontalAcc * direction * Time.fixedDeltaTime;
-				if (speed * direction > maxSpeed) speed = maxSpeed * direction;
+				if (speed * direction < maxSpeed)
+				{
+					speed += horizontalAcc * direction * Time.fixedDeltaTime;
+					if (speed * direction > maxSpeed) speed = maxSpeed * direction;
+				}
 			}
+			else if (speed != 0)
+			{
+				float sign = Mathf.Sign(speed);
+				speed -= horizontalAcc * sign * Time.fixedDeltaTime;
+				if (speed * sign < 0) speed = 0;
+			}
+			body.velocity = new Vector2(speed, body.velocity.y);
 		}
-		else if (speed != 0)
-		{
-			float sign = Mathf.Sign(speed);
-			speed -= horizontalAcc * sign * Time.fixedDeltaTime;
-			if (speed * sign < 0) speed = 0;
-		}
-		body.velocity = new Vector2(speed, body.velocity.y);
-
 		//if (Input.GetKey("left") && speed > -maxSpeed)
 		//{
 		//	speed -= horizontalAcc;
@@ -143,6 +148,31 @@ public class Mario : MonoBehaviour
 	{
 		if (collision.collider.gameObject.layer == 3)//ground layer
 			isGrounded = false;
+	}
+
+	public void EnableMovement(bool enable)
+	{
+		if (enable)
+		{
+			body.isKinematic = false;
+			canMove = true;
+		}
+		else
+		{
+			body.velocity = Vector2.zero;
+			body.isKinematic = true;
+			canMove = false;
+		}
+	}
+
+	public bool Move(Transform pos, float speed)
+	{
+		if (Vector2.Distance(transform.position, pos.position) > 0.01f)
+		{
+			transform.position = Vector2.MoveTowards(transform.position, pos.position, Time.deltaTime * speed);
+			return false;
+		}
+		else return true;
 	}
 
 	// Power up handling

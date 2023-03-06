@@ -99,9 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4be51fe6d44359648bfb71b33456c3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState: 0
   health: 1
   lives: 3
-  currentState: 0
   maxWalkSpeed: 25
   sprintSpeed: 0.01
   horizontalAcc: 1

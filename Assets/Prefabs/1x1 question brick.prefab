@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 541385295276147536}
   - component: {fileID: 6104490680446101372}
   - component: {fileID: -104152750577509733}
+  - component: {fileID: 7110883953232308380}
   m_Layer: 3
   m_Name: 1x1 question brick
   m_TagString: Untagged
@@ -130,3 +131,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7110883953232308380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397905310537541033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12e7fcd9f0bc49e429a23b2bcf9c493e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frameDelay: 0.175
+  startDelay: 0
+  loopDelay: 0.35
+  loop: 1
+  randomiseDelays: 0
+  sprites:
+  - {fileID: 1101269295, guid: b59a47ebe27b3e540a7e7446e77bcda8, type: 3}
+  - {fileID: 1922121246, guid: b59a47ebe27b3e540a7e7446e77bcda8, type: 3}
+  - {fileID: 87038714, guid: b59a47ebe27b3e540a7e7446e77bcda8, type: 3}
+  - {fileID: 1922121246, guid: b59a47ebe27b3e540a7e7446e77bcda8, type: 3}
+  - {fileID: 1101269295, guid: b59a47ebe27b3e540a7e7446e77bcda8, type: 3}
