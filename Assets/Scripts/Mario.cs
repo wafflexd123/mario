@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Mario : MonoBehaviour
 {
+	public static Mario singleton;//i'm lazy and the game is only 1 level anyway
 	public enum MarioState
 	{
 		Small, Super, Fiery, Star
@@ -25,6 +26,7 @@ public class Mario : MonoBehaviour
 
 	void Start()
 	{
+		singleton = this;
 		body = GetComponent<Rigidbody2D>();
 		maxSpeed = maxWalkSpeed;
 		maxSprintSpeed = maxWalkSpeed * 1.6f;

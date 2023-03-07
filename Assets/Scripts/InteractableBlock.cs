@@ -5,6 +5,7 @@ using UnityEngine;
 public class InteractableBlock : MonoBehaviour
 {
 	public Sprite interactedSprite;
+	public GameObject spawnOnInteract;
 	public Vector3 bounce;
 	public float bounceSpeed;
 	public bool allowMulipleInteractions;
@@ -26,6 +27,8 @@ public class InteractableBlock : MonoBehaviour
 
 	IEnumerator Bounce()
 	{
+		if (spawnOnInteract != null) Instantiate(spawnOnInteract, transform.position, Quaternion.identity);
+
 		if (interactedSprite != null) transform.parent.GetComponent<SimpleAnimator>().SetSprites(interactedSprite);
 		Vector3 bouncePos = transform.parent.position + bounce;
 		
