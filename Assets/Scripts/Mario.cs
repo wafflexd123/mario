@@ -20,6 +20,9 @@ public class Mario : MonoBehaviour
 	Coroutine crtStar;
 	Rigidbody2D body;
 
+	public int Coins { get => _coins; set { _coins = value; UIController.singleton.txtCoins.text = $"COINS\n{value}"; } }
+	int _coins;
+
 	void Start()
 	{
 		body = GetComponent<Rigidbody2D>();
