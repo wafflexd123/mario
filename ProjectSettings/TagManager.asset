@@ -7,6 +7,8 @@ TagManager:
   - Powerups
   - Floor
   - Wall
+  - Enemy
+  - Weak Spot
   layers:
   - Default
   - TransparentFX

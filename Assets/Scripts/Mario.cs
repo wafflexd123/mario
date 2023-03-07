@@ -12,8 +12,8 @@ public class Mario : MonoBehaviour
 	private MarioState previousState;
 
 	public int health = 1, lives = 3;
-	[SerializeField] float maxWalkSpeed = 25f, sprintSpeed = 0.01f, horizontalAcc = 1f;
-	float speed = 0f, maxSpeed, maxSprintSpeed, jumpSpeedMin = 4f, jumpSpeedMax = 9.5f, starTimer = 0f;
+    [SerializeField] float maxWalkSpeed = 25f, sprintSpeed = 0.01f, horizontalAcc = 15f;
+	[SerializeField] float speed = 0f, maxSpeed, maxSprintSpeed, jumpSpeedMin = 4f, jumpSpeedMax = 9.5f, starTimer = 0f;
 	private const float starDuration = 30f;
 	bool isJumping = false, jumpCancel = false, isGrounded = true, isInvincible = false, isSprinting = false, canMove = true;
 
@@ -61,21 +61,21 @@ public class Mario : MonoBehaviour
 		if (canMove)
 		{
 			float direction = Input.GetAxisRaw("Horizontal");
-			if (direction != 0)
-			{
-				if (speed * direction < maxSpeed)
-				{
-					speed += horizontalAcc * direction * Time.fixedDeltaTime;
-					if (speed * direction > maxSpeed) speed = maxSpeed * direction;
-				}
-			}
-			else if (speed != 0)
-			{
-				float sign = Mathf.Sign(speed);
-				speed -= horizontalAcc * sign * Time.fixedDeltaTime;
-				if (speed * sign < 0) speed = 0;
-			}
-			body.velocity = new Vector2(speed, body.velocity.y);
+            if (direction != 0)
+            {
+                if (speed * direction < maxSpeed)
+                {
+                    speed += horizontalAcc * direction * Time.fixedDeltaTime;
+                    if (speed * direction > maxSpeed) speed = maxSpeed * direction;
+                }
+            }
+            else if (speed != 0)
+            {
+                float sign = Mathf.Sign(speed);
+                speed -= horizontalAcc * sign * Time.fixedDeltaTime;
+                if (speed * sign < 0) speed = 0;
+            }
+            body.velocity = new Vector2(speed, body.velocity.y);
 		}
 		//if (Input.GetKey("left") && speed > -maxSpeed)
 		//{
@@ -142,6 +142,14 @@ public class Mario : MonoBehaviour
 	{
 		if (collision.collider.gameObject.layer == 3)//ground layer
 			isGrounded = true;
+
+        if(collision.gameObject.tag == "Weak Spot") //enemy head collider
+        {
+            isJumping = true;
+            jumpCancel = true;
+
+            collision.gameObject.GetComponentInParent<EnemyAI>().dead = true;
+        }
 	}
 
 	private void OnCollisionExit2D(Collision2D collision)
