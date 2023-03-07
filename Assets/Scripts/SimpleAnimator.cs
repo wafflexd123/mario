@@ -7,6 +7,8 @@ public class SimpleAnimator : MonoBehaviour
 	public float frameDelay, startDelay, loopDelay;
 	public bool loop, randomiseDelays;
 	public Sprite[] sprites;
+	Vector2 drawSize;
+	SpriteRenderer spriteRenderer;
 
 	IEnumerator Start()
 	{
@@ -18,8 +20,8 @@ public class SimpleAnimator : MonoBehaviour
 				loopDelay = Random.Range(0, 2f);
 			}
 
-			SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-			Vector2 drawSize = spriteRenderer.size;
+			spriteRenderer = GetComponent<SpriteRenderer>();
+			drawSize = spriteRenderer.size;
 			if (startDelay > 0) yield return new WaitForSeconds(startDelay);
 			do
 			{
@@ -32,5 +34,13 @@ public class SimpleAnimator : MonoBehaviour
 				if (loopDelay > 0) yield return new WaitForSeconds(loopDelay);
 			} while (loop);
 		}
+	}
+
+	public void SetSprites(params Sprite[] sprites)
+	{
+		this.sprites = sprites;
+		spriteRenderer.sprite = sprites.Length > 0 ? sprites[0] : null;
+		spriteRenderer.size = drawSize;
+		if (sprites.Length == 1) loop = false;
 	}
 }
