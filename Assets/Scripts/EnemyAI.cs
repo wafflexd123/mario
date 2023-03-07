@@ -4,28 +4,17 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
-    public bool dead;
+   // public bool dead;
     [SerializeField] Sprite deathSprite;
-    
 
-    // Start is called before the first frame update
-    void Start()
+    public void Death() //changes animation sprites to death sprite, then disappears
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (dead) StartCoroutine(Death());
-    }
-
-    IEnumerator Death() //changes animation sprites to death sprite, then disappears
-    {
-        GetComponent<SimpleAnimator>().sprites[0] = deathSprite;
-        GetComponent<SimpleAnimator>().sprites[1] = deathSprite;
-        yield return new WaitForSeconds(0.5f);
-        Destroy(gameObject);
-        yield return null;
+        StartCoroutine(Routine());//dont need to check every frame in Update(), can just call this immediately
+        IEnumerator Routine()
+        {
+            GetComponent<SimpleAnimator>().sprites = new Sprite[] { deathSprite };
+            yield return new WaitForSeconds(0.5f);
+            Destroy(gameObject);
+        }
     }
 }
