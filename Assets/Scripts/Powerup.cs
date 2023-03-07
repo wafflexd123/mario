@@ -63,18 +63,22 @@ public class Powerup : MonoBehaviour
             // Super Mushroom should change sprite to big Mario and give Mario an extra point of health.
             case PowerupType.SuperMushroom:
                 mario.Grow();
+                StartCoroutine(PlayPowerUp());
                 break;
             // Fire Flower should change sprite to fiery Mario and give Mario 2 extra points of health and the ability to shoot fireballs.
             case PowerupType.FireFlower:
                 mario.ShootFireballs();
+                StartCoroutine(PlayPowerUp());
                 break;
             // Super Star should make Mario flash and become invincible to all damage for 30 seconds
             case PowerupType.SuperStar:
                 mario.BecomeInvincible();
+                StartCoroutine(PlayPowerStar());
                 break;
             // Life Mushroom should give Mario an extra life.
             case PowerupType.LifeMushroom:
                 mario.GainLife();
+                StartCoroutine(PlayLifeUp());
                 break;
             default:
                 break;
@@ -114,5 +118,32 @@ public class Powerup : MonoBehaviour
 
         // Stop bouncing
         isBouncing = false;
+    }
+
+    IEnumerator PlayPowerUp()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+        GetComponent<Renderer>().enabled = false;
+        yield return new WaitWhile(() => audio.isPlaying);
+        Destroy(gameObject);
+    }
+
+    IEnumerator PlayPowerStar()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+        GetComponent<Renderer>().enabled = false;
+        yield return new WaitWhile(() => audio.isPlaying);
+        Destroy(gameObject);
+    }
+
+    IEnumerator PlayLifeUp()
+    {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
+        GetComponent<Renderer>().enabled = false;
+        yield return new WaitWhile(() => audio.isPlaying);
+        Destroy(gameObject);
     }
 }
