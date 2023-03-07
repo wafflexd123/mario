@@ -146,9 +146,9 @@ public class Mario : MonoBehaviour
         if(collision.gameObject.tag == "Weak Spot") //enemy head collider
         {
             isJumping = true;
-            jumpCancel = true;
+            jumpCancel = true; //triggers a short jump
 
-            collision.gameObject.GetComponentInParent<EnemyAI>().dead = true;
+            collision.gameObject.GetComponentInParent<EnemyAI>().dead = true; //activates death on collided enemy
         }
 	}
 

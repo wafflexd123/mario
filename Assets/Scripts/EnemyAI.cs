@@ -17,13 +17,10 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (dead)
-        {
-            StartCoroutine(Death());
-        }
+        if (dead) StartCoroutine(Death());
     }
 
-    IEnumerator Death()
+    IEnumerator Death() //changes animation sprites to death sprite, then disappears
     {
         GetComponent<SimpleAnimator>().sprites[0] = deathSprite;
         GetComponent<SimpleAnimator>().sprites[1] = deathSprite;
