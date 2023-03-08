@@ -83,18 +83,17 @@ public class Powerup : MonoBehaviour
             case PowerupType.SuperStar:
                 mario.BecomeInvincible();
                 uiController.score += 1000;
-                StartCoroutine(PlayPowerStar());
+                StartCoroutine(PlayPowerUp());
                 break;
             // Life Mushroom should give Mario an extra life.
             case PowerupType.LifeMushroom:
                 mario.GainLife();
                 uiController.score += 1000;
-                StartCoroutine(PlayLifeUp());
+                StartCoroutine(PlayPowerUp());
                 break;
             default:
                 break;
         }
-        Destroy(this.gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -110,29 +109,12 @@ public class Powerup : MonoBehaviour
             moveSpeed = -moveSpeed;
         }
     }
+
     IEnumerator PlayPowerUp()
     {
+        GetComponent<Renderer>().enabled = false;
         AudioSource audio = GetComponent<AudioSource>();
         audio.Play();
-        GetComponent<Renderer>().enabled = false;
-        yield return new WaitWhile(() => audio.isPlaying);
-        Destroy(gameObject);
-    }
-
-    IEnumerator PlayPowerStar()
-    {
-        AudioSource audio = GetComponent<AudioSource>();
-        audio.Play();
-        GetComponent<Renderer>().enabled = false;
-        yield return new WaitWhile(() => audio.isPlaying);
-        Destroy(gameObject);
-    }
-
-    IEnumerator PlayLifeUp()
-    {
-        AudioSource audio = GetComponent<AudioSource>();
-        audio.Play();
-        GetComponent<Renderer>().enabled = false;
         yield return new WaitWhile(() => audio.isPlaying);
         Destroy(gameObject);
     }
