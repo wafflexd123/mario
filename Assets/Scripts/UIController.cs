@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
 	public float time;
+	public float score;
 	public Text txtCoins, txtTimer, txtScore, txtLives;
 	public static UIController singleton;
 	float timer;
@@ -20,5 +21,6 @@ public class UIController : MonoBehaviour
 	{
 		timer -= Time.deltaTime;
 		txtTimer.text = $"TIME\n{timer:0}";
+		txtScore.text = "SCORE\n" + score;
 	}
 }

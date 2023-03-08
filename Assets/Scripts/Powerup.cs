@@ -16,7 +16,8 @@ public class Powerup : MonoBehaviour
     }
 
     public PowerupType type;
-
+    GameObject ui;
+    UIController uiController;
 
     //Change if too fast or slow.
     public float moveSpeed = 3f;
@@ -26,6 +27,9 @@ public class Powerup : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        ui = GameObject.FindGameObjectWithTag("UIController");
+        uiController = ui.GetComponent<UIController>();
+
     }
     private void Update()
     {
@@ -66,21 +70,25 @@ public class Powerup : MonoBehaviour
             // Super Mushroom should change sprite to big Mario and give Mario an extra point of health.
             case PowerupType.SuperMushroom:
                 mario.Grow();
+                uiController.score += 1000;
                 StartCoroutine(PlayPowerUp());
                 break;
             // Fire Flower should change sprite to fiery Mario and give Mario 2 extra points of health and the ability to shoot fireballs.
             case PowerupType.FireFlower:
                 mario.ShootFireballs();
+                uiController.score += 1000;
                 StartCoroutine(PlayPowerUp());
                 break;
             // Super Star should make Mario flash and become invincible to all damage for 30 seconds
             case PowerupType.SuperStar:
                 mario.BecomeInvincible();
+                uiController.score += 1000;
                 StartCoroutine(PlayPowerStar());
                 break;
             // Life Mushroom should give Mario an extra life.
             case PowerupType.LifeMushroom:
                 mario.GainLife();
+                uiController.score += 1000;
                 StartCoroutine(PlayLifeUp());
                 break;
             default:

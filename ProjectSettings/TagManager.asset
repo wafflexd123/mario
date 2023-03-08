@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - Enemy
   - Weak Spot
+  - UIController
   layers:
   - Default
   - TransparentFX

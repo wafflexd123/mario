@@ -6,6 +6,14 @@ public class EnemyAI : MonoBehaviour
 {
 	// public bool dead;
 	[SerializeField] Sprite deathSprite;
+    GameObject ui;
+    UIController uiController;
+
+	private void Start()
+	{
+        ui = GameObject.FindGameObjectWithTag("UIController");
+        uiController = ui.GetComponent<UIController>();
+    }
 
 	public void Death() //changes animation sprites to death sprite, then disappears
 	{
@@ -13,6 +21,7 @@ public class EnemyAI : MonoBehaviour
 		IEnumerator Routine()
 		{
 			GetComponent<SimpleAnimator>().SetSprites(deathSprite);
+			uiController.score += 100;
 			yield return new WaitForSeconds(0.5f);
 			Destroy(gameObject);
 		}

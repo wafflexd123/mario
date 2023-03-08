@@ -5,6 +5,14 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
 	bool interacted;
+    GameObject ui;
+    UIController uiController;
+
+    private void Start()
+	{
+        ui = GameObject.FindGameObjectWithTag("UIController");
+        uiController = ui.GetComponent<UIController>();
+    }
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
@@ -13,6 +21,7 @@ public class Coin : MonoBehaviour
 			if (collision.CompareTag("Player"))
 			{
 				collision.gameObject.GetComponent<Mario>().Coins++;
+				uiController.score += 200;
 				interacted = true;
 				StartCoroutine(PlaySound());
 			}
