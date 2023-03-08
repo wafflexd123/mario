@@ -22,7 +22,7 @@ public class MapBuilder : MonoBehaviour
 				RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero);
 				if (hit.collider == null)
 				{
-					GameObject obj = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
+					GameObject obj = Instantiate(prefab);
 					pos.z = 0;
 					obj.transform.position = pos;
 					Transform parent = transform.Find(prefab.name);
