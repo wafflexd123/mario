@@ -16553,6 +16553,14 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4372912192277823337, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+      propertyPath: bigMario
+      value: 
+      objectReference: {fileID: -57993113, guid: f65cd0944d32fba4fb587b8dc2495f0b, type: 3}
+    - target: {fileID: 4372912192277823337, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+      propertyPath: smallMario
+      value: 
+      objectReference: {fileID: -2001943878, guid: d7e9e1546e173224ba7aab766127c5d7, type: 3}
+    - target: {fileID: 4372912192277823337, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
       propertyPath: maxWalkSpeed
       value: 7.5
       objectReference: {fileID: 0}
@@ -16560,6 +16568,10 @@ PrefabInstance:
       propertyPath: horizontalAcc
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823338, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2001943878, guid: d7e9e1546e173224ba7aab766127c5d7, type: 3}
     - target: {fileID: 4372912192277823339, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -16602,6 +16614,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4372912192277823339, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823339, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4372912192277823343, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}

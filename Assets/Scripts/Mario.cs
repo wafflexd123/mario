@@ -12,6 +12,10 @@ public class Mario : MonoBehaviour
 	public MarioState currentState = MarioState.Small;
 	private MarioState previousState;
 
+	public Sprite smallMario;
+	public Sprite bigMario;
+	private SpriteRenderer spriteRenderer;
+
 	public int health = 1, lives = 3;
 	[SerializeField] float maxWalkSpeed = 25f, sprintSpeed = 0.01f, horizontalAcc = 15f;
 	[SerializeField] float speed = 0f, maxSpeed, maxSprintSpeed, jumpSpeedMin = 4f, jumpSpeedMax = 9.5f, starTimer = 0f;
@@ -28,6 +32,7 @@ public class Mario : MonoBehaviour
 	{
 		singleton = this;
 		body = GetComponent<Rigidbody2D>();
+		spriteRenderer = GetComponent<SpriteRenderer>();
 		maxSpeed = maxWalkSpeed;
 		maxSprintSpeed = maxWalkSpeed * 1.6f;
 	}
@@ -194,6 +199,7 @@ public class Mario : MonoBehaviour
 		currentState = MarioState.Super;
 		// Temporary grow code, makes Mario size bigger, will change sprite later.
 		transform.localScale = new Vector3(1, 2, 1);
+		spriteRenderer.sprite = bigMario;
 		health = 2;
 	}
 
