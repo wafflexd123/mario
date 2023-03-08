@@ -17,18 +17,34 @@ public class Powerup : MonoBehaviour
 
     public PowerupType type;
 
+
     //Change if too fast or slow.
     public float moveSpeed = 3f;
     public float maxHeight = 10f;
     public float bounceSpeed = 5f;
 
+    public float maxVelocity = 5f;
+
+    private Rigidbody2D rb;
+
     private bool isBouncing = false;
 
     private GameObject player;
-
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
     private void Update()
     {
         PowerupMovement();
+    }
+
+    private void FixedUpdate()
+    {
+        if (rb.velocity.y > maxVelocity)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, maxVelocity);
+        }
     }
 
     void PowerupMovement()
@@ -43,12 +59,6 @@ public class Powerup : MonoBehaviour
             // Super Star should move to the right and bounce.
             case PowerupType.SuperStar:
                 transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
-                // If the star is not bouncing, start bouncing
-                if (!isBouncing)
-                {
-                    isBouncing = true;
-                    StartCoroutine(Bounce());
-                }
                 break;
             default:
                 break;

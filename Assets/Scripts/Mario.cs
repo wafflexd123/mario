@@ -16,7 +16,13 @@ public class Mario : MonoBehaviour
 	public Sprite bigMario;
 	private SpriteRenderer spriteRenderer;
 
-	public int health = 1, lives = 3;
+    public GameObject fireballPrefab;
+    public Transform fireballSpawnPoint;
+    public float fireballSpeed = 5f;
+
+    private bool canShoot = true;
+
+    public int health = 1, lives = 3;
 	[SerializeField] float maxWalkSpeed = 25f, sprintSpeed = 0.01f, horizontalAcc = 15f;
 	[SerializeField] float speed = 0f, maxSpeed, maxSprintSpeed, jumpSpeedMin = 4f, jumpSpeedMax = 9.5f, starTimer = 0f;
 	private const float starDuration = 30f;
@@ -64,7 +70,23 @@ public class Mario : MonoBehaviour
 				jumpCancel = true;
 			}
 		}
-	}
+
+		// Fireball Code
+        if (Input.GetButtonDown("Fire1") && canShoot && currentState == MarioState.Fiery)
+        {
+            // Spawn a new fireball at the fireball spawn point
+            GameObject fireball = Instantiate(fireballPrefab, new Vector3(fireballSpawnPoint.position.x + 0.5f, fireballSpawnPoint.position.y), Quaternion.identity);
+
+            // Set the velocity of the fireball based on the direction Mario is facing, currently not working because Mario doesn't turn...
+            Vector2 fireballVelocity = Vector2.right * (transform.localScale.x > 0 ? 1f : -1f) * fireballSpeed;
+            fireball.GetComponent<Rigidbody2D>().velocity = fireballVelocity;
+
+            // Prevent the player from shooting again until a cooldown period has passed
+            canShoot = false;
+            Invoke("ResetShoot", 0.3f); // Set a 0.5 second cooldown
+			Destroy(fireball, 1f);
+        }
+    }
 
 	void Movement()
 	{
@@ -231,4 +253,8 @@ public class Mario : MonoBehaviour
 			crtStar = null;
 		}
 	}
+    private void ResetShoot()
+    {
+        canShoot = true;
+    }
 }

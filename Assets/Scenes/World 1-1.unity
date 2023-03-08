@@ -377,6 +377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 5b9b29b88474fa6409e1e79b4614b284, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1208,6 +1212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1740,6 +1748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 question brick
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2069,6 +2081,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2940,6 +2956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 5b9b29b88474fa6409e1e79b4614b284, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3335,6 +3355,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe entrance 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4194,6 +4218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 mushroom brick
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: b6fd8aad18bf74048864bca4634548d0, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4325,6 +4353,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4458,6 +4490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4523,6 +4559,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4919,6 +4959,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5945,6 +5989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6240,6 +6288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6371,6 +6423,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6504,6 +6560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 5b9b29b88474fa6409e1e79b4614b284, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6635,6 +6695,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7035,6 +7099,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8645,6 +8713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8776,6 +8848,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9635,6 +9711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10294,6 +10374,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11572,6 +11656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 question brick (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11704,6 +11792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11769,6 +11861,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11901,6 +11997,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12368,6 +12468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12569,6 +12673,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13959,6 +14067,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16286,6 +16398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16568,6 +16684,14 @@ PrefabInstance:
       propertyPath: horizontalAcc
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 4372912192277823337, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+      propertyPath: fireballPrefab
+      value: 
+      objectReference: {fileID: 1216474786737216262, guid: 273913bc43c78504a9b4196712206a28, type: 3}
+    - target: {fileID: 4372912192277823337, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+      propertyPath: fireballSpawnPoint
+      value: 
+      objectReference: {fileID: 700596796}
     - target: {fileID: 4372912192277823338, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -16644,6 +16768,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4be51fe6d44359648bfb71b33456c3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &700596796 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4372912192277823339, guid: 5e90f735a3b5a124993d4e8d01e16b33, type: 3}
+  m_PrefabInstance: {fileID: 700596791}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &702841939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16765,6 +16894,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16963,6 +17096,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18693,6 +18830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19120,6 +19261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19251,6 +19396,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20118,6 +20267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20382,6 +20535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20447,6 +20604,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20514,6 +20675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 question brick (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20579,6 +20744,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
       propertyPath: m_Name
       value: 1x1 question brick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20844,6 +21013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20975,6 +21148,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 193af3489e1edb04d8701098abd360af, type: 3}
       propertyPath: m_Name
       value: 1x1 green mushroom brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 193af3489e1edb04d8701098abd360af, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22230,6 +22407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22964,6 +23145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23228,6 +23413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23359,6 +23548,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24710,6 +24903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25568,6 +25765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26363,6 +26564,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27222,6 +27427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27621,6 +27830,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: b6fd8aad18bf74048864bca4634548d0, type: 3}
       propertyPath: m_Name
       value: 1x1 mushroom brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: b6fd8aad18bf74048864bca4634548d0, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28282,6 +28495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 coin brick
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 8198183391885f14d8d2e0e2f5c1bb88, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28448,6 +28665,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29455,6 +29676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29520,6 +29745,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30080,6 +30309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30343,6 +30576,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe entrance 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31004,6 +31241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 5b9b29b88474fa6409e1e79b4614b284, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31135,6 +31376,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31364,6 +31609,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32095,6 +32344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32160,6 +32413,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 5b9b29b88474fa6409e1e79b4614b284, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe entrance (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 5b9b29b88474fa6409e1e79b4614b284, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32788,6 +33045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32853,6 +33114,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33051,6 +33316,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33715,6 +33984,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
       propertyPath: m_Name
       value: 1x1 question brick (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35056,6 +35329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35451,6 +35728,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35914,6 +36195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 star brick
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 79261ac4045f6734883117f7821c378d, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36049,6 +36334,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36690,6 +36979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36755,6 +37048,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37218,6 +37515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37283,6 +37584,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37482,6 +37787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37614,6 +37923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37745,6 +38058,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38410,6 +38727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe entrance (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 5b9b29b88474fa6409e1e79b4614b284, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38673,6 +38994,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
       propertyPath: m_Name
       value: 1x1 question brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38938,6 +39263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39003,6 +39332,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39677,6 +40010,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40548,6 +40885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -40749,6 +41090,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41380,6 +41725,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42040,6 +42389,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42809,6 +43162,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -44196,6 +44553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44591,6 +44952,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45978,6 +46343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 301cd7f67d2b8b4468fa18bd5627c3e9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46175,6 +46544,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46505,6 +46878,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46968,6 +47345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47165,6 +47546,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47445,6 +47830,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
       propertyPath: m_Name
       value: 1x1 question brick (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 7b6bab5cf45e63a44a825c3a31d858e4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47842,6 +48231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48105,6 +48498,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
       propertyPath: m_Name
       value: 1x1 brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48502,6 +48899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick tile (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48831,6 +49232,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe entrance 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 64c718d28e614914cac5eeccbc014c14, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49227,6 +49632,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
       propertyPath: m_Name
       value: 1x1 pipe wall 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 3ea138a4e2aee9146a312333026c00c9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51010,6 +51419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51075,6 +51488,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51604,6 +52021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1x1 brick (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: a6562c85b9c0b2a4d90d9f13ab167d87, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51933,6 +52354,10 @@ PrefabInstance:
     - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
       propertyPath: m_Name
       value: 1x1 brick tile (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397905310537541033, guid: 51e4e0e222437e140a79108f009b0ffa, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
