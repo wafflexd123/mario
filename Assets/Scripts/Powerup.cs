@@ -71,7 +71,7 @@ public class Powerup : MonoBehaviour
             case PowerupType.SuperMushroom:
                 mario.Grow();
                 uiController.score += 1000;
-                StartCoroutine(PlayPowerUp());
+               StartCoroutine(PlayPowerUp());
                 break;
             // Fire Flower should change sprite to fiery Mario and give Mario 2 extra points of health and the ability to shoot fireballs.
             case PowerupType.FireFlower:
@@ -116,7 +116,8 @@ public class Powerup : MonoBehaviour
         audio.Play();
         GetComponent<Renderer>().enabled = false;
         yield return new WaitWhile(() => audio.isPlaying);
-        Destroy(gameObject);
+       Destroy(gameObject);
+
     }
 
     IEnumerator PlayPowerStar()

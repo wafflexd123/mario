@@ -11,11 +11,12 @@ public class InteractableBlock : MonoBehaviour
 	public bool allowMulipleInteractions;
 	Coroutine crtBounce;
 	Vector3 startPos;
-
+	public GameObject explosionPrefab ;
 	private void Start()
 	{
 		startPos = transform.parent.position;
-	}
+        explosionPrefab = Resources.Load<GameObject>("Explosion");
+    }
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
@@ -31,7 +32,9 @@ public class InteractableBlock : MonoBehaviour
 
 		if (interactedSprite != null) transform.parent.GetComponent<SimpleAnimator>().SetSprites(interactedSprite);
 		Vector3 bouncePos = transform.parent.position + bounce;
-		
+
+		Instantiate(explosionPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + Vector3.up.y, gameObject.transform.position.z), gameObject.transform.rotation);
+
 		while (Vector2.Distance(transform.parent.position, bouncePos) > 0.001f)
 		{
 			transform.parent.position = Vector2.MoveTowards(transform.parent.position, bouncePos, Time.deltaTime * bounceSpeed);
