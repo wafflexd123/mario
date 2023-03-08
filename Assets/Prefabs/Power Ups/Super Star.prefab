@@ -173,5 +173,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   moveSpeed: 3
-  maxHeight: 5
-  bounceSpeed: 5
+  maxVelocity: 6

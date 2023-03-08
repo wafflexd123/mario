@@ -20,16 +20,9 @@ public class Powerup : MonoBehaviour
 
     //Change if too fast or slow.
     public float moveSpeed = 3f;
-    public float maxHeight = 10f;
-    public float bounceSpeed = 5f;
-
     public float maxVelocity = 5f;
 
     private Rigidbody2D rb;
-
-    private bool isBouncing = false;
-
-    private GameObject player;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -109,27 +102,6 @@ public class Powerup : MonoBehaviour
             moveSpeed = -moveSpeed;
         }
     }
-
-    IEnumerator Bounce()
-    {
-        // Move the star up to the maximum height
-        while (transform.position.y < maxHeight)
-        {
-            transform.Translate(Vector3.up * bounceSpeed * Time.deltaTime);
-            yield return null;
-        }
-
-        // Move the star down to the floor
-        while (transform.position.y > 2.5f)
-        {
-            transform.Translate(Vector3.down * bounceSpeed * Time.deltaTime);
-            yield return null;
-        }
-
-        // Stop bouncing
-        isBouncing = false;
-    }
-
     IEnumerator PlayPowerUp()
     {
         AudioSource audio = GetComponent<AudioSource>();
