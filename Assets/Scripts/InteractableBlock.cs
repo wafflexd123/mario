@@ -28,7 +28,12 @@ public class InteractableBlock : MonoBehaviour
 
 	IEnumerator Bounce()
 	{
-		if (spawnOnInteract != null) Instantiate(spawnOnInteract, transform.position, Quaternion.identity);
+		if (spawnOnInteract != null && !spawnOnInteract.CompareTag("Powerups")) Instantiate(spawnOnInteract, transform.position, Quaternion.identity);
+		
+		else
+		{
+			Instantiate(spawnOnInteract, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), Quaternion.identity);
+		}
 
 		if (interactedSprite != null) transform.parent.GetComponent<SimpleAnimator>().SetSprites(interactedSprite);
 		Vector3 bouncePos = transform.parent.position + bounce;
