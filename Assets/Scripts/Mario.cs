@@ -23,8 +23,8 @@ public class Mario : MonoBehaviour
     private bool canShoot = true;
 
     public int health = 1, lives = 3;
-	[SerializeField] float maxWalkSpeed = 25f, sprintSpeed = 0.01f, horizontalAcc = 15f;
-	[SerializeField] float speed = 0f, maxSpeed, maxSprintSpeed, jumpSpeedMin = 4f, jumpSpeedMax = 9.5f, starTimer = 0f;
+	[SerializeField] float maxWalkSpeed = 25f, sprintSpeed = 0.01f, horizontalAcc = 100f;
+	[SerializeField] float speed = 0f, maxSpeed, maxSprintSpeed, jumpSpeedMin =40f, jumpSpeedMax = 80f, starTimer = 0f;
 	private const float starDuration = 30f;
 	bool isJumping = false, jumpCancel = false, isGrounded = true, isInvincible = false, isSprinting = false, canMove = true;
 
